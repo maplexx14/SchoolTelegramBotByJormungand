@@ -6,7 +6,7 @@ import requests
 import webbrowser
 
 #Подключение к телеграмму
-bot = telebot.TeleBot('6114337491:AAHhfiyqwsbMGs4iDJOYXbmrasEuvPc8RA8')
+bot = telebot.TeleBot('token')
 
 @bot.message_handler(commands = ['start'])
 # Приветствие пользователя
